@@ -7,10 +7,22 @@
 <meta property="og:type" content="personal.site" />
 <meta property="og:url" content="" />
 <meta property="og:image" content="profile-pic.jpeg" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata&family=Montserrat&family=Lato">
+    
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <style>
+    h1 {
+      font-family: 'Montseratt';
+      font-size: 48px; 
+    }
+    p {
+      font-family: 'Lato';
+      font-size: 20px;
+    }
       
     body {
-      padding-top: 40px;
+      padding-top: 20px;
       padding-bottom: 40px;
       background-color: #f9f4ef;
       display: flex;
@@ -31,23 +43,31 @@
     }
 
     .banner-image {
-      width: 128px;
-      height:128px;
+      width: 200px;
+      height:200px;
       /* object-fit: cover; */
-      border-radius: 128px;
+      border-radius: 200px;
     }
 
     .thumbnail {
-      width: 48px;
-      height: 48px;
-      border-radius: 48px;
+      width: 75px;
+      height: 75px;
+      border-radius: 75px;
       object-fit: cover;
     }
+    /*make dpi logo oval*/
+    /* .dpi-thumbnail {
+      width: 200px;
+      height: 75px;
+      border-radius: 75px;
+      object-fit: cover;
+    } */
     
     .name {
       color: #020826;
       display: flex;
       justify-content: center;
+      
 
     }
 
@@ -68,6 +88,7 @@
       display: flex;
       align-items: center;
       padding: 5px;
+      border-radius: 50px;
     }
 
     .link a {
@@ -95,18 +116,23 @@
     </div>
 
     <div class="name">
-      <p>Logan CoBell</p>
+      <h1>Logan CoBell</h1>
+    </div>
+    
+    <div class="bio">
+      <p>I am a recent (August 2022) Software Development Bootcamp graduate and a current member of Discovery Partners Institute's first apprenticeship cohort (a pioneer of sorts!). Along with coding and developing database backed full CRUD applications, I bartend at RPM Steak in Chicago's River North neighborhood. In my free time I enjoy exploring the city with my dog (and best-friend) Brutus, running along the lake front, and checking out Chicago's awesome restaurant scene.</p>
     </div>
 
-    <div class="social-icons">
-      <a href="https://github.com/lcobell" target="_blank">Github</a>
-      <a href="https://www.linkedin.com/in/logancobell/" target="_blank">LinkedIn</a>
-      <a href="https://www.instagram.com/logan.efrain.37/" target="_blank">Instagram</a>
-      <a href="https://twitter.com/LoganCobell" target="_blank">Twitter</a>
+    <div class="social-icons" style="font-size:xx-large">
+      <a href="https://github.com/lcobell" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/logancobell/" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+      <a href="https://www.instagram.com/logan.efrain.37/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/LoganCobell" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://app.digit.ink/view-credential/5fa2a4de-026f-4083-91ce-618d26447b0c?di_ref=a2li" target="_blank"<i class="fas fa-certificate"></i></a>
     </div>
 
     <div class="link">
-      <img  src="coal-crab.jpeg" class="thumbnail" alt="Coal Roasted Crab"</img>
+      <img  src="westholme-strip.jpeg" class="thumbnail" alt="westholme-strip"</img>
       <a href="https://www.rpmrestaurants.com/rpm-steak-chicago/" target="_blank">RPM Steak</a>
     </div>
 
@@ -116,7 +142,7 @@
     </div>
 
     <div class="link">
-      <img src="dpi-logo.png" class="thumbnail" alt="Discovery Partners Institute Logo"</img>
+      <img src="computer_code.jpeg" class="thumbnail" alt="Discovery Partners Institute Logo"</img>
       <a href="https://dpi.uillinois.edu/tech-talent-development/" target="_blank">Discovery Partners Institute</a>
     </div>
     </div>
