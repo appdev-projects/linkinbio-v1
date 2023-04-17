@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <title>Logan CoBell</title>
+  <meta property="og:title" content="Logan's Page" />
+  <meta property="og:type" content="personal.site" />
+  <meta property="og:url" content="" />
+  <meta property="og:image" content="profile-pic.jpeg" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Crimson+Pro&family=Literata&family=Montserrat&family=Lato">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <style>
+    h1 {
+      font-family: 'Montseratt';
+      font-size: 48px;
+    }
+
+    p {
+      font-family: 'Lato';
+      font-size: 20px;
+    }
+
+    body {
+      padding-top: 20px;
+      padding-bottom: 40px;
+      background-color: #E9C46A;
+      display: flex;
+      justify-content: center;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 640px;
+      flex-grow: 1;
+    }
+
+    .banner {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .banner-image {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 200px;
+    }
+
+    .thumbnail {
+      width: 75px;
+      height: 75px;
+      border-radius: 75px;
+      object-fit: cover;
+    }
+
+    /*make dpi logo oval*/
+    /* .dpi-thumbnail {
+      width: 200px;
+      height: 75px;
+      border-radius: 75px;
+      object-fit: cover;
+    } */
+
+    .name {
+      color: #020826;
+      display: flex;
+      justify-content: center;
+
+
+    }
+
+    .social-icons {
+      color: #F4E2B4;
+      text-decoration: none;
+      display: flex;
+      justify-content: space-around;
+
+    }
+
+    .social-icons a {
+      text-decoration: none;
+    }
+
+    .link {
+      background-color: #F4E2B4;
+      display: flex;
+      align-items: center;
+      padding: 5px;
+      border-radius: 50px;
+    }
+
+    .link a {
+      color: #8c7851;
+      text-decoration: none;
+      text-align: center;
+      flex-grow: 1;
+    }
+
+    .items {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      max-width: 640px;
+    }
+
+    .background--custom {
+      background-color: #E9C46A;
+      width: 100vw;
+      height: 100vh;
+      position: absolute;
+      overflow: hidden;
+      z-index: -2;
+      top: 0;
+      left: 0;
+    }
+
+    canvas#canvas {
+      z-index: -1;
+      position: absolute;
+      width: 100%;
+      height: 90%;
+      transform: rotate(-12deg) scale(2) translateY(-56%);
+      --gradient-color-1: #EF008F;
+      --gradient-color-2: #6ec3f4;
+      --gradient-color-3: #7038ff;
+      --gradient-color-4: #E9C46A;
+      --gradient-speed: 0.000006;
+    }
+
+  </style>
+</head>
+
+<body>
+  <div class="items">
+    <div class="banner">
+      <img src="profile-pic.jpeg" alt="Logan's profile picture" class="banner-image" />
+    </div>
+
+    <div class="name">
+      <h1>Logan CoBell</h1>
+    </div>
+
+    <div class="bio">
+      <p>Software Development Apprentice with a strong interest in health, fitness, and being a positive person. After ten years of working in customer facing roles in the hospitality industry, I developed a passion for improving interactions and experiences through consistency and attention to detail. This has led me to pursue a career in technology as I believe it is an excellent space to produce real measurable results and to have an overall positive impact.  When I'm not learning new skills to become a better developer I enjoy running, playing golf, cooking, and spending time with my dog Brutus. </p>
+    </div>
+
+    <div class="social-icons" style="font-size:xx-large">
+      <a href="https://github.com/lcobell" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/logancobell/" target="_blank"><i class="fab fa-linkedin"
+          aria-hidden="true"></i></a>
+      <a href="https://docs.google.com/document/d/1fcAj53nDoA0UPa4D-9PHHGqPQMzJzhWo9O6qsEWFLnA/edit?usp=sharing" target ="blank"><i class="far fa-file"></i></a>
+      <a href="https://www.instagram.com/logan.efrain.37/" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="https://twitter.com/LoganCobell" target="_blank"><i class="fab fa-twitter"></i></a>
+      <a href="https://app.digit.ink/view-credential/5fa2a4de-026f-4083-91ce-618d26447b0c?di_ref=a2li" target="_blank"
+        <i class="fas fa-certificate"></i></a>
+    </div>
+
+    <div class="link">
+      <img src="computer_code.jpeg" class="thumbnail" alt="Discovery Partners Institute Logo">
+      <a href="https://dpi.uillinois.edu/tech-talent-development/" target="_blank">Discovery Partners Institute</a>
+    </div>
+
+    <div class="link">
+      <img src="Golftec location_pin_icon_green_shadow.png" class="thumbnail" alt="westholme-strip">
+      <a href="https://www.golftec.com/" target="_blank">GOLFTEC</a>
+    </div>
+
+    <div class="link">
+      <img src="rocklife-logo.jpg" class="thumbnail" alt="RockLife Crossfit Kettle Bell logo">
+      <a href="https://rock-life-crossfit.triib.com/" target="_blank">Rock Life CrossFit</a>
+    </div>
+
+
+  </div>
+
+  <div class="background--custom">
+    <canvas id="canvas" />
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/gh/greentfrapp/pocoloco@minigl/minigl.js"></script>
+  <script>
+    var gradient = new Gradient();
+    gradient.initGradient("#canvas");
+  </script>
+
+</body>
+
+</html>
